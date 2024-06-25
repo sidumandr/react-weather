@@ -1,0 +1,41 @@
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Input ve buton arasında boşluk */
+}
+
+input {
+  border: none;
+  padding: 12px;
+  width: 450px;
+  border-radius: 15px;
+  background-color: antiquewhite;
+}
+input:focus {
+  outline: none;
+}
+
+.btn {
+  border-radius: 15px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px 4px 10px;
+  background-color: burlywood;
+  font-size: small;
+}
+
+.btn:hover {
+  background-color: rgb(194, 158, 111);
+}
+
+.results {
+  color: antiquewhite;
+  font-family: "Times New Roman", Times, serif;
+  display: table-cell;
+  margin-top: 40px;
+  margin-right: 70px;
+  text-align: left;
+  font-size: small;
+}
